@@ -160,13 +160,13 @@ const HomePage = () => {
   };
 
   const imageMap = {
-    Red: "/src/assets/red.jpg",
-    Black: "/src/assets/black.jpg",
-    Blue: "/src/assets/blue.jpg",
-    Gray: "/src/assets/gray.jpg",
-    Green: "/src/assets/green.jpg",
-    White: "/src/assets/white.jpg",
-    Silver: "/src/assets/sliver.jpg",
+    Red: "/components/pictures/red.jpg",
+    Black: "/components/pictures/black.jpg",
+    Blue: "/components/pictures/blue.jpg",
+    Gray: "/components/pictures/gray.jpg",
+    Green: "/components/pictures/green.jpg",
+    White: "/components/pictures/white.jpg",
+    Silver: "/components/pictures/sliver.jpg",
   };
 
  const updateObjStore = (car) => {
