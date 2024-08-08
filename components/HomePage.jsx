@@ -160,13 +160,13 @@ const HomePage = () => {
   };
 
   const imageMap = {
-    Red: "../components/pictures/red.JPG",
-    Black: "/components/pictures/black.JPG",
-    Blue: "/components/pictures/blue.jpg",
-    Gray: "/components/pictures/gray.jpg",
-    Green: "/components/pictures/green.jpg",
-    White: "/components/pictures/white.jpg",
-    Silver: "/components/pictures/sliver.jpg",
+    Red: "/red.jpg",
+    Black: "/black.JPG",
+    Blue: "/blue.jpg",
+    Gray: "/gray.jpg",
+    Green: "/green.jpg",
+    White: "/white.jpg",
+    Silver: "/sliver.jpg",
   };
 
  const updateObjStore = (car) => {
