@@ -261,6 +261,11 @@
   gap: 1rem;
   margin-left: .5rem;
 }
+.dropDownSearch select{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
 .btns{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
