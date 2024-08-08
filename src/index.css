@@ -189,12 +189,11 @@
   height: 100vh;
   position: relative;
   top: 8rem;
-  left: 0;
-  right: 0;
-  padding-left: 0;
-  margin-left: -2rem;
-  margin-right: -2rem;
-  z-index: -1;  
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+  width: 100%;
+  
 }
 @media all and (max-width:1070px) {
   .header1{
@@ -461,6 +460,7 @@ footer{
   align-items: center;
   justify-content: space-between;
   padding-right: 6rem;
+  width: 100%;
 }
 footer .logoIcons {
   font-size: 4rem;
