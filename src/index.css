@@ -98,6 +98,7 @@
   display: flex;
   align-items: center;
   gap: 2rem;
+  width: 100%;
 }
 .sticky{
   position: sticky;
@@ -109,10 +110,12 @@
   visibility: hidden;
 }
 @media all and (max-width:950px) {
- .menuClick{
-  margin-left: -10rem;
- }
+  .header2Small{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  }
 }
+
 .icon{
   font-size: 3rem;
 }
@@ -210,6 +213,24 @@
   border: none;
   border-radius: 10rem;
   box-shadow: 0 0 0px 0.2px orangered;
+}
+@media all and (max-width:700px) {
+  .section1 p{
+    width: 10rem;
+    top: 5rem;
+    left: 5rem;
+  }
+}
+@media all and (max-width:600px) {
+  .header2Small{
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    /* padding-top: 20rem; */
+  }
+}
+@media all and (max-width:400px) {
+  .header2Small{
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+  }
 }
 /* section 2 for homepage */
 .searchBar{
