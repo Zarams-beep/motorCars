@@ -160,8 +160,8 @@ const HomePage = () => {
   };
 
   const imageMap = {
-    Red: "/components/pictures/red.jpg",
-    Black: "/components/pictures/black.jpg",
+    Red: "/components/pictures/red.JPG",
+    Black: "/components/pictures/black.JPG",
     Blue: "/components/pictures/blue.jpg",
     Gray: "/components/pictures/gray.jpg",
     Green: "/components/pictures/green.jpg",
