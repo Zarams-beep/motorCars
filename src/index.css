@@ -1,0 +1,632 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; */
+  overflow-x: hidden;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  overflow-x: none;
+
+}
+
+.mainHeader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: grid;
+}
+.header1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10rem;
+  background-color: black;
+  color: orangered;
+  font-size: 1.2rem;
+}
+.header1 p{
+  color: white;
+  font-size: 1rem;
+}
+.header1Small{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.contactAll,.addToCart{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.location,.callUs,.time{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.addToCart{
+  position: relative;
+  width: 3rem;
+}
+.addToCart button{
+  width: 3rem;
+  font-size: 1.8rem;
+  padding-top: .1rem;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: .5rem;
+  background-color: orangered;
+  margin-right: 15rem;
+}
+.btnIcon{
+  position: relative;
+}
+.flowing{
+  color: black;
+  background-color: orangered;
+  position: absolute;
+  top: -1rem;
+  right: 0;
+  font-size: .9rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  border-radius: 2rem;
+}
+.header2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 5%;
+  background-color: white;
+  height: 5rem;
+  color: black;
+  box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.3);
+  padding-top: 1rem;
+}
+.header2Small{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.sticky{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding-right: 2rem;
+}
+.invisible{
+  visibility: hidden;
+}
+@media all and (max-width:950px) {
+ .menuClick{
+  margin-left: -10rem;
+ }
+}
+.icon{
+  font-size: 3rem;
+}
+.stickIt{
+  position: fixed;
+  top: 15rem;
+  /* left: 100%; */
+  right: 0;
+  z-index: 1000;
+  background-color: orangered;
+  font-weight: bold;
+  width: 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding-left: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+.stickIt .socialIcons{
+  margin-left: .7rem;
+}
+
+ .linkFlex{
+  display: grid;
+  grid-template-columns: 1fr;
+  perspective: 1000px;
+  padding-top: .5rem;
+}
+ 
+.logoIcons{
+  font-size: 2rem;
+  transform: rotateY(20deg);
+  color: orangered;
+}
+.logo p{
+  margin-top: 0;
+  padding-top: 0;
+  text-shadow: 1px 1px 2px black;
+}
+.socials{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 0rem;
+}
+.secondTemplate ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.secondTemplate ul li,.socialIcons{
+  transition: color .3s ease-in-out, cursor .3s ease-in-out;
+}
+.secondTemplate ul li:hover,.socialIcons:hover{
+  color: orangered;
+  cursor: pointer;
+}
+
+
+/* section 1 */
+.section1{
+  background-image: url('/src/assets/kenny-eliason-orGJcWVI6js-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  top: 8rem;
+  left: 0;
+  right: 0;
+  padding-left: 0;
+  z-index: -1;  
+}
+@media all and (max-width:1070px) {
+  .header1{
+    display: none;
+  }
+  .section1{
+    top: 5rem;
+  }
+}
+.section1 p{
+  position: absolute;
+  right: 10rem;
+  top: 12rem;
+  width: 20rem;
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10rem;
+  box-shadow: 0 0 0px 0.2px orangered;
+}
+/* section 2 for homepage */
+.searchBar{
+  position: relative;
+  top: 8rem;
+  background-color: black;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  color: orangered;
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-right: 4rem;
+  padding-bottom: 1rem;
+}
+.carIcon{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+}
+.dropDownSearch{
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+  gap: 1rem;
+  margin-left: .5rem;
+}
+.btns{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+  gap: 1rem;
+  width: 20%;
+}
+.dropDownSearch select,.btnSearch button,.btnRestart button{
+  width: 7.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: .4rem;
+  border: none;
+  border-radius: .2rem;
+  color: rgb(110, 110, 110);
+}
+
+.btnSearch button,.btnRestart button{
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+}
+
+.carIconNote{
+  line-height: 0;
+}
+.carIconNote h6{
+  margin-top: 0;
+}
+.searchBar .logoIcons{
+  font-size: 2rem;
+}
+@media only screen and (max-width:1200px){
+  .searchBar{
+    padding-left: 0;
+  }
+  .searchBar .lodgoIcons{
+    font-size: 1.2rem;
+  }
+  .searchBar .carIconNote h3{
+    font-size: 1rem;
+  }
+  .dropDownSearch{
+    margin-left: -4rem;
+  }
+  .carIcon{
+    display: grid;
+  }
+  .carIcon .carIconNote{
+    margin-top: -.1rem;
+  }
+}
+
+@media all and (max-width:1070px) {
+  .searchBar{
+    top: 5rem;
+  }
+  .dropDownSearch{
+    width: 100%;
+  }
+}
+.section3{
+  position: relative;
+  top: 7rem;
+  opacity: 0;
+  color: black;
+}
+.section3 h3, .noResult{
+  margin-left: 1rem;
+}
+.show-opacity{
+  opacity: 1;
+}
+.section3 ul{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 2rem;
+  margin-right: 2rem;
+}
+.section3 ul li{
+  list-style: none;
+  box-shadow: 0 0 1px 0.5px rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: .2rem;
+  border-bottom-right-radius: .2rem;
+  
+}
+.section3 ul img{
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+.makeContainer,.modelContainer,.yearContainer,.colorContainer,.fuelType,.priceContainer{display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  gap: .5rem;
+}
+.section3 ul li p{
+  line-height: 0;
+  font-weight: bold;
+}
+.priceContainer{
+  padding-bottom: .5rem;
+}
+.btnCart{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  
+}
+.btnAddCart,.btnCart select{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  color: orangered;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 1rem;
+  box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.3);
+}
+.btnCart select{
+  width: 30%;
+  padding-left: .2rem;
+}
+
+.section4,footer{
+  position: relative;
+  top: 7rem;
+  padding-left: 1rem;
+  padding-bottom: .6rem;
+  color: black;
+}
+.forHeader{
+  text-align: center;
+}
+.forHeader h6{
+  color: orangered;
+  font-size: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.forHeader h1{
+  margin-top: 0;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.forHeader h3{
+  margin-top: .4rem;
+  font-size: 1.2rem;
+}
+.whyChoose{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 2rem;
+  padding-right: 2rem;
+}
+.us1{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid rgb(177, 177, 177);
+  box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.3);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
+.icons{
+  font-size: 10rem;
+  color: orangered;
+}
+.us1 h4{
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  color: orangered;
+}
+.us1 p{
+  margin-top: .5rem;
+  text-align: justify;
+}
+footer{
+  margin-top: 2rem;
+  background-color: black;
+  padding-top: 1rem;
+  padding-left: 4rem;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 6rem;
+}
+footer .logoIcons {
+  font-size: 4rem;
+}
+footer .logo p{
+  font-size: 2rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+footer .logo .smallCopy{
+  font-size: 1rem;
+  padding-top: 0;
+  margin-top: 0;
+  /* text-align: center; */
+}
+footer h2{font-size: 2.2rem;
+  color: orangered;
+}
+.checkOut{
+  color: black;
+  padding-left: 2rem;
+}
+
+/* checkout */
+.part1{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: -.5rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid rgb(177, 177, 177);
+  box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+.checkoutMenu{
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+}
+.checkoutMenu h6{
+  font-size: 1rem;
+}
+.part1 .icons2{
+  color: black;
+}
+.part2{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  gap: 3rem;
+}
+.part2H3{
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 10rem;
+}
+.deliveryMenu{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.delivery1{
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 2rem;
+  /* width: 60%; */
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  
+}
+.delivery1 h3,.carDetails .notes .price{
+  color: orangered;
+}
+.carDetails{
+  display: flex;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+.carDetails img{
+  width: 15rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.3);
+}
+.carDetails .notes h3,.carDetails .notes .price,.carDetails .changes{
+  color: black;
+  /* line-height: 1rem; */
+}
+.carDetails .notes .price{
+  margin-bottom: 0;
+}
+.carDetails .changes{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-top: 0;
+  color: orangered;
+}
+.qty{
+  color: black;
+}
+.part3{
+  width: 25rem;
+}
+.delOptions,.orderSum{
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 2rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+.orderSum{
+  margin-top: 2rem;
+}
+.delOptions .h4-choose{
+  margin-bottom: 0;
+}
+.delOptions label{
+  display: flex;
+  align-items: center;
+}
+
+.delOptions label div h5{
+  line-height: 0;
+  color: rgb(138, 137, 137);
+  font-size: 1rem
+}
+.delOptions label div .date{
+  color: darkslategrey;
+}
+.smallPart{
+  padding-right: 2rem;
+}
+.smallPart div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.smallPart button{
+  background-color: orangered;
+  border: none;
+  border-radius: 2rem;
+  width: 100%;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: 1.2rem;
+  color: white;
+}
+.divModel,.divComplete{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 6rem;
+}
+.divModel h2,.divComplete h2{
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+}
+.contact{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  gap: .4rem;
+}
+.contact label input{
+  width: 30rem;
+  font-size: 1.2rem;
+  padding: .2rem;
+}
+.contact label input::placeholder{
+  font-size: 1.2rem;
+}
+.btnContainer{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.btnContainer button{
+  border: none;
+  width: 10rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  background-color: green;
+  font-weight: bold;
+}
+.divComplete .linking{
+  color: black;
+  text-decoration: none;
+}
+.divComplete .btndiv{
+  margin-top: 2rem;
+  text-align: center;
+}
