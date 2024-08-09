@@ -2,7 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: white;
@@ -13,8 +12,6 @@
   -moz-osx-font-smoothing: grayscale;
   margin-left: -1rem;
   margin-right: -1rem;
-  overflow-x: none;
-
 }
 
 .mainHeader{
@@ -98,12 +95,10 @@
   display: flex;
   align-items: center;
   gap: 2rem;
-  width: 100%;
 }
 .sticky{
   position: sticky;
   top: 0;
-  width: 100%;
   padding-right: 2rem;
 }
 .invisible{
@@ -122,7 +117,6 @@
 .stickIt{
   position: fixed;
   top: 15%;
-  /* left: 100%; */
   right: 0rem;
   z-index: 1000;
   background-color: orangered;
@@ -252,6 +246,7 @@
   padding-top: 1rem;
   padding-right: 4rem;
   padding-bottom: 1rem;
+  margin-right: -2rem;
 }
 .carIcon{
   display: flex;
@@ -332,7 +327,7 @@
 }
 @media all and (max-width:700px) {
   .searchBar{
-    margin-right: -2rem;
+    margin-right: -5rem;
   }
 }
 .section3{
@@ -388,7 +383,6 @@
   
 }
 .btnAddCart,.btnCart select{
-  width: 100%;
   font-size: 1rem;
   border: none;
   color: orangered;
@@ -469,7 +463,12 @@ footer{
   align-items: center;
   justify-content: space-between;
   padding-right: 6rem;
-  width: 100%;
+  margin-right: -2rem;
+}
+@media all and (max-width:700px) {
+  footer{
+    margin-right: -5rem;
+  }
 }
 footer .logoIcons {
   font-size: 4rem;
@@ -483,7 +482,6 @@ footer .logo .smallCopy{
   font-size: 1rem;
   padding-top: 0;
   margin-top: 0;
-  /* text-align: center; */
 }
 footer h2{font-size: 2.2rem;
   color: orangered;
