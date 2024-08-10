@@ -1,3 +1,6 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -80,6 +83,7 @@
   border-radius: 2rem;
 }
 .header2{
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -98,7 +102,7 @@
 }
 .sticky{
   position: sticky;
-  top: 0;
+  top: 0rem;
   padding-right: 2rem;
 }
 .invisible{
@@ -195,7 +199,7 @@
     display: none;
   }
   .section1{
-    top: 5rem;
+    top: 4.5rem;
   }
 }
 .section1 p{
@@ -233,6 +237,7 @@
 }
 /* section 2 for homepage */
 .searchBar{
+  box-sizing: border-box;
   position: relative;
   top: 8rem;
   background-color: black;
@@ -319,7 +324,7 @@
 
 @media all and (max-width:1070px) {
   .searchBar{
-    top: 5rem;
+    top: 4rem;
   }
   .dropDownSearch{
     width: 100%;
