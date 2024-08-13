@@ -14,6 +14,7 @@
   -moz-osx-font-smoothing: grayscale;
   margin-left: -1rem;
   margin-right: -1rem;
+  box-sizing: border-box; 
   overflow-x: hidden;
 }
 
@@ -125,11 +126,10 @@
 .stickIt{
   position: fixed;
   top: 15%;
-  right: 0rem;
+  right: .5px;
   z-index: 1000;
   background-color: orangered;
   font-weight: bold;
-  /* width: 4rem; */
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
@@ -197,6 +197,7 @@
   margin-left: -2rem;
   margin-right: -2rem;
   z-index: -1;  
+  overflow: hidden;
 }
 @media all and (max-width:1070px) {
   .header1{
@@ -244,6 +245,8 @@
   box-sizing: border-box;
   position: relative;
   top: 8rem;
+  right: 0;
+  left: 0;
   background-color: black;
   padding-left: 2rem;
   display: flex;
@@ -254,6 +257,7 @@
   justify-content: space-around;
   padding-right: 4rem;
   padding-bottom: 1rem;
+  overflow: hidden;
   margin-right: -2rem;
 }
 .carIcon{
@@ -340,11 +344,14 @@
   .searchBar{
     display: grid;
     grid-template-columns: 1fr;
+    margin-right: -5rem;
 
   }
   .dropDownSearch{
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
-    
+  }
+  .btns{
+    margin-left: .6rem;
   }
 }
 .section3{
