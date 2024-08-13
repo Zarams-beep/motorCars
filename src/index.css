@@ -67,6 +67,10 @@
   border-radius: .5rem;
   background-color: orangered;
   margin-right: 15rem;
+  transition: cursor .3s ease-in-out;
+}
+.addToCart button:hover{
+  cursor: pointer;
 }
 .btnIcon{
   position: relative;
@@ -121,11 +125,11 @@
 .stickIt{
   position: fixed;
   top: 15%;
-  right: -1rem;
+  right: 0rem;
   z-index: 1000;
   background-color: orangered;
   font-weight: bold;
-  width: 6rem;
+  /* width: 4rem; */
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
@@ -248,7 +252,6 @@
   gap: 1rem;
   color: orangered;
   justify-content: space-around;
-  padding-top: 1rem;
   padding-right: 4rem;
   padding-bottom: 1rem;
   margin-right: -2rem;
@@ -269,6 +272,10 @@
   background-color: white;
   color: black;
   font-weight: bold;
+  transition: cursor .3s ease-in-out;
+}
+.dropDownSearch select:hover{
+  cursor: pointer;
 }
 .btns{
   display: grid;
@@ -290,8 +297,13 @@
   background-color: orangered;
   color: white;
   font-weight: bold;
+  transition: cursor .3s ease-in-out, background-color .5s ease-in-out;
 }
 
+.btnSearch button:hover,.btnRestart button:hover{
+  cursor: pointer;
+  background-color: rgb(252, 86, 25);
+}
 .carIconNote{
   line-height: 0;
 }
@@ -302,17 +314,11 @@
   font-size: 2rem;
 }
 @media only screen and (max-width:1200px){
-  .searchBar{
-    padding-left: 0;
-  }
   .searchBar .lodgoIcons{
     font-size: 1.2rem;
   }
   .searchBar .carIconNote h3{
     font-size: 1rem;
-  }
-  .dropDownSearch{
-    margin-left: -4rem;
   }
   .carIcon{
     display: grid;
@@ -332,7 +338,13 @@
 }
 @media all and (max-width:700px) {
   .searchBar{
-    margin-right: -5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+  .dropDownSearch{
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    
   }
 }
 .section3{
@@ -397,6 +409,10 @@
   font-weight: bold;
   border-radius: 1rem;
   box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.3);
+  transition: cursor .3s ease-in-out;
+}
+.btnAddCart:hover,.btnCart select:hover{
+  cursor: pointer;
 }
 .btnCart select{
   width: 30%;
@@ -631,8 +647,12 @@ footer h2{font-size: 2.2rem;
   padding-bottom: .5rem;
   font-size: 1.2rem;
   color: white;
+  transition: cursor .3s ease-in-out,background-color .3s ease-in-out
 }
-
+.smallPart button:hover{
+  cursor: pointer;
+  background-color: rgb(252, 99, 44);
+}
 .divModel,.divComplete{
   display: grid;
   grid-template-columns: 1fr;
@@ -674,6 +694,11 @@ footer h2{font-size: 2.2rem;
   font-size: 1.2rem;
   background-color: green;
   font-weight: bold;
+  transition: cursor .3s ease-in-out, filter .3s ease-in-out;
+}
+.btnContainer button:hover{
+  cursor: pointer;
+  filter: brightness(90%);
 }
 .divComplete .linking{
   color: black;
