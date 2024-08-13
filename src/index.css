@@ -8,13 +8,13 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: white;
-  overflow-x: hidden;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin-left: -1rem;
   margin-right: -1rem;
+  overflow-x: hidden;
 }
 
 .mainHeader{
@@ -121,11 +121,11 @@
 .stickIt{
   position: fixed;
   top: 15%;
-  right: 0rem;
+  right: -1rem;
   z-index: 1000;
   background-color: orangered;
   font-weight: bold;
-  width: 3rem;
+  width: 6rem;
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
