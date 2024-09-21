@@ -8,7 +8,7 @@ import { SlCalender } from "react-icons/sl";
 import { useMediaQuery } from "react-responsive";
 import Header from "./Header";
 import Floating from "./Floating";
-
+import LazyLoad from "react-lazyload";
 const HomePage = () => {
   const [data, setData] = useState([]);
   const [result, setResult] = useState([]);
@@ -322,7 +322,8 @@ const HomePage = () => {
             {result.map((car, index) => (
               <li key={index}>
                 {imageMap[car.color] ? (
-                  <img src={imageMap[car.color]} alt={car.color} />
+                  <LazyLoad>
+                  <img src={imageMap[car.color]} alt={car.color} /></LazyLoad>
                 ) : null}
                 <div className="makeContainer">
                   <p>Make:</p>

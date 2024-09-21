@@ -4,6 +4,7 @@ import { PiCarSimpleBold } from "react-icons/pi";
 import { format, addDays } from "date-fns";
 import { Link } from "react-router-dom";
 import Modal from "react-modal";
+import LazyLoad from "react-lazyload";
 const CheckOut = () => {
   const [carDetails, setCarDetails] = useState({});
 
@@ -93,7 +94,8 @@ const CheckOut = () => {
 
               {Object.values(carDetails).map((car)=>(
                 <div className="carDetails" key={car.id}>
-                    <img src={car.img} alt="" />
+                  <LazyLoad>
+                    <img src={car.img} alt="" /></LazyLoad>
                     
                     <div className="notes">
                       <h3>
