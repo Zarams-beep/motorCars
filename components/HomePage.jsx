@@ -9,6 +9,8 @@ import { useMediaQuery } from "react-responsive";
 import Header from "./Header";
 import Floating from "./Floating";
 import LazyLoad from "react-lazyload";
+import cars from '../utils/cars.json'
+import imageMap from "../utils/imageMap";
 const HomePage = () => {
   const [data, setData] = useState([]);
   const [result, setResult] = useState([]);
@@ -29,7 +31,7 @@ const HomePage = () => {
   const [indexOf, setIndexOf] = useState([])
   const [objStoreIt, setObjStoreIt] = useState({});
   const [quantities, setQuantities] = useState({});
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
   const handleQTY = (carId,event) => {
     const selectedValue = parseInt(event.target.value, 10);
@@ -68,20 +70,9 @@ const HomePage = () => {
 
   //    get the data
   const fetchData = async () => {
-    try {
-      const response = await fetch("https://freetestapi.com/api/v1/cars");
-
-      if (!response.ok) {
-        throw new Error("Network is not okay");
-      }
-
-      const jsonData = await response.json();
-      setData(jsonData);
-
-      setLoading(false);
-    } catch (error) {
-      console.error("Fetch data error: ", error);
-    }
+   if (cars.length>0){
+    setData(cars)
+   }
   };
 
   useEffect(() => {
@@ -159,15 +150,6 @@ const HomePage = () => {
     setChooseQTY(0)
   };
 
-  const imageMap = {
-    Red: "/red.jpg",
-    Black: "/black.jpg",
-    Blue: "/blue.jpg",
-    Gray: "/gray.jpg",
-    Green: "/green.jpg",
-    White: "/white.jpg",
-    Silver: "/sliver.jpg",
-  };
 
  const updateObjStore = (car) => {
     setObjStoreIt(prevStore => ({

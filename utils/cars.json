@@ -1,0 +1,526 @@
+[
+    {
+        "id": 1,
+        "color": "Red",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2022,
+        "fuel_type": "Gasoline",
+        "price": 25000
+    },
+    {
+        "id": 2,
+        "color": "Blue",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2021,
+        "fuel_type": "Gasoline",
+        "price": 23000
+    },
+    {
+        "id": 3,
+        "color": "Black",
+        "make": "BMW",
+        "model": "X5",
+        "year": 2020,
+        "fuel_type": "Diesel",
+        "price": 50000
+    },
+    {
+        "id": 4,
+        "color": "White",
+        "make": "Mercedes-Benz",
+        "model": "E-Class",
+        "year": 2023,
+        "fuel_type": "Electric",
+        "price": 70000
+    },
+    {
+        "id": 5,
+        "color": "Silver",
+        "make": "Audi",
+        "model": "A6",
+        "year": 2021,
+        "fuel_type": "Hybrid",
+        "price": 55000
+    },
+    {
+        "id": 6,
+        "color": "Green",
+        "make": "Tesla",
+        "model": "Model S",
+        "year": 2022,
+        "fuel_type": "Electric",
+        "price": 80000
+    },
+    {
+        "id": 7,
+        "color": "Yellow",
+        "make": "Chevrolet",
+        "model": "Camaro",
+        "year": 2020,
+        "fuel_type": "Gasoline",
+        "price": 45000
+    },
+    {
+        "id": 8,
+        "color": "Gray",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2021,
+        "fuel_type": "Gasoline",
+        "price": 38000
+    },
+    {
+        "id": 9,
+        "color": "Orange",
+        "make": "Porsche",
+        "model": "911",
+        "year": 2023,
+        "fuel_type": "Gasoline",
+        "price": 90000
+    },
+    {
+        "id": 10,
+        "color": "Purple",
+        "make": "Lamborghini",
+        "model": "Huracán",
+        "year": 2022,
+        "fuel_type": "Gasoline",
+        "price": 200000
+    },
+    {
+        "id": 11,
+        "color": "Brown",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2021,
+        "fuel_type": "Gasoline",
+        "price": 27000
+    },
+    {
+        "id": 12,
+        "color": "Pink",
+        "make": "Fiat",
+        "model": "500",
+        "year": 2020,
+        "fuel_type": "Gasoline",
+        "price": 18000
+    },
+    {
+        "id": 13,
+        "color": "Teal",
+        "make": "Kia",
+        "model": "Optima",
+        "year": 2021,
+        "fuel_type": "Hybrid",
+        "price": 35000
+    },
+    {
+        "id": 14,
+        "color": "Beige",
+        "make": "Honda",
+        "model": "Accord",
+        "year": 2022,
+        "fuel_type": "Gasoline",
+        "price": 28000
+    },
+    {
+        "id": 15,
+        "color": "Turquoise",
+        "make": "Volkswagen",
+        "model": "Golf",
+        "year": 2023,
+        "fuel_type": "Electric",
+        "price": 40000
+    },
+    {
+        "id": 16,
+        "color": "Red",
+        "make": "Toyota",
+        "model": "Rav4",
+        "year": 2021,
+        "fuel_type": "Hybrid",
+        "price": 37000
+    },
+    {
+        "id": 17,
+        "color": "Blue",
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 2020,
+        "fuel_type": "Gasoline",
+        "price": 42000
+    },
+    {
+        "id": 18,
+        "color": "Black",
+        "make": "Audi",
+        "model": "Q7",
+        "year": 2022,
+        "fuel_type": "Diesel",
+        "price": 65000
+    },
+    {
+        "id": 19,
+        "color": "White",
+        "make": "Ford",
+        "model": "Explorer",
+        "year": 2021,
+        "fuel_type": "Gasoline",
+        "price": 48000
+    },
+    {
+        "id": 20,
+        "color": "Silver",
+        "make": "Chevrolet",
+        "model": "Equinox",
+        "year": 2023,
+        "fuel_type": "Gasoline",
+        "price": 35000
+     
+    },
+    {
+        "id": 21,
+        "color": "Pink",
+        "make": "Hyundai",
+        "model": "Elantra",
+        "year": 2022,
+        "fuel_type": "Gasoline",
+        "price": 22000
+    },
+    {
+        "id": 22,
+        "color": "Gold",
+        "make": "Jaguar",
+        "model": "F-Type",
+        "year": 2021,
+        "fuel_type": "Gasoline",
+        "price": 60000
+    },
+    {
+        "id": 23,
+        "color": "Blue",
+        "make": "Subaru",
+        "model": "Outback",
+        "year": 2023,
+        "fuel_type": "Gasoline",
+        "price": 35000
+    },
+    {
+        "id": 24,
+        "color": "Yellow",
+        "make": "Mitsubishi",
+        "model": "Outlander",
+        "year": 2020,
+        "fuel_type": "Gasoline",
+        "price": 27000
+    },
+    {
+        "id": 25,
+        "color": "Red",
+        "make": "Chevrolet",
+        "model": "Tahoe",
+        "year": 2021,
+        "fuel_type": "Gasoline",
+        "price": 55000
+    },
+    {
+        "id": 26,
+        "color": "Purple",
+        "make": "Ferrari",
+        "model": "488 GTB",
+        "year": 2020,
+        "fuel_type": "Gasoline",
+        "price": 250000
+    },
+    {
+        "id": 27,
+        "color": "Green",
+        "make": "Mini",
+        "model": "Cooper",
+        "year": 2022,
+        "fuel_type": "Gasoline",
+        "price": 35000
+    },
+    {
+        "id": 28,
+        "color": "Black",
+        "make": "Audi",
+        "model": "A4",
+        "year": 2023,
+        "fuel_type": "Diesel",
+        "price": 47000
+    },
+    {
+        "id": 29,
+        "color": "Silver",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 2021,
+        "fuel_type": "Gasoline",
+        "price": 50000
+    },
+    {
+        "id": 30,
+        "color": "Teal",
+        "make": "Mazda",
+        "model": "CX-5",
+        "year": 2020,
+        "fuel_type": "Gasoline",
+        "price": 32000
+    },
+    {
+        "id": 31,
+        "color": "White",
+        "make": "BMW",
+        "model": "X3",
+        "year": 2022,
+        "fuel_type": "Hybrid",
+        "price": 70000
+    },
+    {
+        "id": 32,
+        "color": "Orange",
+        "make": "Lexus",
+        "model": "RX",
+        "year": 2021,
+        "fuel_type": "Gasoline",
+        "price": 54000
+    },
+    {
+        "id": 33,
+        "color": "Pink",
+        "make": "Volkswagen",
+        "model": "Passat",
+        "year": 2020,
+        "fuel_type": "Gasoline",
+        "price": 28000
+    },
+    {
+        "id": 34,
+        "color": "Gray",
+        "make": "Nissan",
+        "model": "Maxima",
+        "year": 2022,
+        "fuel_type": "Gasoline",
+        "price": 38000
+    },
+    {
+        "id": 35,
+        "color": "Brown",
+        "make": "Chrysler",
+        "model": "Pacifica",
+        "year": 2021,
+        "fuel_type": "Hybrid",
+        "price": 47000
+    },
+    {
+        "id": 36,
+        "color": "Blue",
+        "make": "Toyota",
+        "model": "Highlander",
+        "year": 2022,
+        "fuel_type": "Hybrid",
+        "price": 46000
+    },
+    {
+        "id": 37,
+        "color": "Silver",
+        "make": "Jeep",
+        "model": "Grand Cherokee",
+        "year": 2020,
+        "fuel_type": "Gasoline",
+        "price": 42000
+    },
+    {
+        "id": 38,
+        "color": "Gold",
+        "make": "Cadillac",
+        "model": "Escalade",
+        "year": 2023,
+        "fuel_type": "Gasoline",
+        "price": 90000
+    },
+    {
+        "id": 39,
+        "color": "Teal",
+        "make": "Ford",
+        "model": "Edge",
+        "year": 2021,
+        "fuel_type": "Gasoline",
+        "price": 37000
+    },
+    {
+        "id": 40,
+        "color": "Red",
+        "make": "Hyundai",
+        "model": "Santa Fe",
+        "year": 2021,
+        "fuel_type": "Gasoline",
+        "price": 36000
+    },
+    {
+        "id": 41,
+        "color": "Blue",
+        "make": "Toyota",
+        "model": "Land Cruiser",
+        "year": 2020,
+        "fuel_type": "Gasoline",
+        "price": 85000
+    },
+    {
+        "id": 42,
+        "color": "Black",
+        "make": "Porsche",
+        "model": "Cayenne",
+        "year": 2023,
+        "fuel_type": "Hybrid",
+        "price": 75000
+    },
+    {
+        "id": 43,
+        "color": "Green",
+        "make": "Volvo",
+        "model": "XC90",
+        "year": 2022,
+        "fuel_type": "Hybrid",
+        "price": 80000
+    },
+    {
+        "id": 44,
+        "color": "Yellow",
+        "make": "Chevrolet",
+        "model": "Colorado",
+        "year": 2020,
+        "fuel_type": "Diesel",
+        "price": 40000
+    },
+    {
+        "id": 45,
+        "color": "White",
+        "make": "Kia",
+        "model": "Sorrento",
+        "year": 2021,
+        "fuel_type": "Gasoline",
+        "price": 42000
+    },
+    {
+        "id": 46,
+        "color": "Silver",
+        "make": "Honda",
+        "model": "Pilot",
+        "year": 2022,
+        "fuel_type": "Gasoline",
+        "price": 47000
+    },
+    {
+        "id": 47,
+        "color": "Pink",
+        "make": "Fiat",
+        "model": "Panda",
+        "year": 2020,
+        "fuel_type": "Gasoline",
+        "price": 15000
+    },
+    {
+        "id": 48,
+        "color": "Gold",
+        "make": "BMW",
+        "model": "X7",
+        "year": 2023,
+        "fuel_type": "Diesel",
+        "price": 90000
+    },
+    {
+        "id": 49,
+        "color": "Teal",
+        "make": "Audi",
+        "model": "Q5",
+        "year": 2022,
+        "fuel_type": "Hybrid",
+        "price": 60000
+    },
+    {
+        "id": 50,
+        "color": "Orange",
+        "make": "Ford",
+        "model": "Escape",
+        "year": 2021,
+        "fuel_type": "Hybrid",
+        "price": 48000
+    },
+    {
+        "id": 51,
+        "color": "Purple",
+        "make": "Lexus",
+        "model": "LX 570",
+        "year": 2020,
+        "fuel_type": "Gasoline",
+        "price": 95000
+    },
+    {
+        "id": 52,
+        "color": "Red",
+        "make": "Jeep",
+        "model": "Wrangler",
+        "year": 2021,
+        "fuel_type": "Gasoline",
+        "price": 48000
+    },
+    {
+        "id": 53,
+        "color": "Blue",
+        "make": "Subaru",
+        "model": "Forester",
+        "year": 2023,
+        "fuel_type": "Gasoline",
+        "price": 35000
+    },
+    {
+        "id": 54,
+        "color": "Brown",
+        "make": "Toyota",
+        "model": "Tacoma",
+        "year": 2020,
+        "fuel_type": "Gasoline",
+        "price": 37000
+    },
+    {
+        "id": 55,
+        "color": "Black",
+        "make": "Nissan",
+        "model": "Murano",
+        "year": 2022,
+        "fuel_type": "Gasoline",
+        "price": 47000
+    },
+    {
+        "id": 56,
+        "color": "Green",
+        "make": "Honda",
+        "model": "CR-V",
+        "year": 2021,
+        "fuel_type": "Hybrid",
+        "price": 40000
+    },
+    {
+        "id": 57,
+        "color": "Gray",
+        "make": "Ford",
+        "model": "F-250",
+        "year": 2022,
+        "fuel_type": "Diesel",
+        "price": 65000
+    },
+    {
+        "id": 58,
+        "color": "Yellow",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 2023,
+        "fuel_type": "Gasoline",
+        "price": 75000
+    }
+  ]
+  
